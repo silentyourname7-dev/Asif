@@ -26,7 +26,7 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # ==================== CONFIG ====================
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8816710883:AAHrPkpvloATjfOG97zrpeSYXPHTlJc0WSY")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8816710883:AAF4JBi4d20VbQddormeAp2QBUWSuwDqPJY")
 ADMIN_ID = [int(x.strip()) for x in os.environ.get("ADMIN_ID", "8093002631").split(",")]
 ALLOWED_FILE = "allowed_users.txt"
 LEADERBOARD_FILE = "leaderboard.json"
